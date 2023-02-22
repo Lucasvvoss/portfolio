@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__texto { 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+.apresentacao__links { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link { 
+    font-weight: bold;
+    background-color: rgb(0, 230, 11);
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.texto-forte { 
+    color: rgb(0, 230, 11);
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+}
+
+img {
+    max-width: 1000px;
+}
